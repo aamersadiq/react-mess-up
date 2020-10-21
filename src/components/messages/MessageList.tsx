@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useEffect } from "react";
+import React, { FunctionComponent } from "react";
 import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
 import moment from "moment";
 import MaterialTable, { Column } from "material-table";

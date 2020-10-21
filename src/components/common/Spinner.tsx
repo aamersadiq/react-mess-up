@@ -22,6 +22,7 @@ const Spinner: FunctionComponent<SpinnerProps> = ({ isLoading }) => {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const handleClose = () => {
+    console.log(open);
     setOpen(false);
   };
 
